@@ -42,7 +42,7 @@
 
 	var SocialCount = {
 		// For A-grade experience, require querySelector (IE8+) and not BlackBerry or touchscreen
-		isGradeA: 'querySelectorAll' in doc && !win.blackberry && !('ontouchstart' in window) && !('onmsgesturechange' in window),
+		isGradeA: 'querySelectorAll' in doc && !win.blackberry && !('ontouchstart' in window),
 		minCount: 1,
 		serviceUrl: 'service/index.php',
 		initSelector: '.socialcount',
